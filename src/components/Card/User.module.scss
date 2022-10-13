@@ -1,0 +1,42 @@
+.parent {
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 5px 5px 15px rgba(#454545, 0.4);
+  padding: 50px 15px;
+  cursor: pointer;
+
+  h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  figure {
+    margin-top: 15px;
+  }
+
+  ul {
+    display: inline-flex;
+    flex-direction: column;
+  }
+
+  li {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    opacity: 0.8;
+
+    &:not(:last-child) {
+      margin-bottom: 5px;
+    }
+  }
+
+  svg {
+    fill: #cd1aff;
+  }
+}

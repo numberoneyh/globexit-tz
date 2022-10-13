@@ -1,0 +1,33 @@
+.wrapper {
+  max-width: 1250px;
+  margin: 50px auto;
+  padding: 0 15px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.search {
+  position: relative;
+  margin-bottom: 20px;
+
+  svg {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    fill: #cd1aff;
+  }
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 7px;
+  outline: none;
+  font-size: 16px;
+}
